@@ -1,0 +1,20 @@
+/*---------------------------------------- 
+  Available Layout type names
+-----------------------------------------*/
+ /*
+ 1. vertical-modern-menu-template
+ 2. vertical-menu-nav-dark-template
+ 3. vertical-gradient-menu-template
+ 4. vertical-dark-menu-template
+ 5. horizontal-menu-template
+ 
+/* Need to change Layout name as per your requirement on below mentioned line.*/
+/*
+1. @import "../themes/vertical-gradient-menu-template/variables"; 
+2. @import "../themes/vertical-gradient-menu-template/theme-variables";
+*/ 
+@import "../components/color-variables"; 
+@import "../themes/vertical-modern-menu-template/variables"; 
+@import "../components/variables"; 
+@import "../theme-components/theme-variables"; 
+@import "../themes/vertical-modern-menu-template/theme-variables"; 

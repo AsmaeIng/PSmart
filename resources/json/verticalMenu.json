@@ -1,0 +1,370 @@
+{
+  "menu": [
+    {
+      "url": "javascript:void(0)",
+      "name": "Dashboard",
+      "i18n": "Dashboard",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "dashboard",
+      "icon": "settings_input_svideo",
+      "tag": "3",
+      "tagcustom": "badge pill orange float-right mr-10",
+      "submenu": [
+        {
+          "url": "/",
+          "name": "Modern",
+          "i18n": "Modern",
+          "slug": "dashboard-modern"
+        },
+        {
+          "url": "analytics",
+          "name": "Analytics",
+          "i18n": "Analytics",
+          "slug": "dashboard-analytics"
+        }
+      ]
+    },
+
+    {
+      "navheader": "Applications",
+      "icon": "more_horiz"
+    },
+	{
+      "url": "networks",
+      "name": "Networks",
+      "i18n": "Networks",
+      "class": "waves-effect waves-cyan",
+      "icon": "account_balance",
+      "slug": "app-Networks"
+    },
+	{
+      "url": "isps",
+      "name": "Isps",
+      "i18n": "Isps",
+      "class": "waves-effect waves-cyan",
+      "icon": "email",
+      "slug": "app-Isps"
+    },
+	{
+      "url": "countrys",
+      "name": "Country",
+      "i18n": "Country",
+      "class": "waves-effect waves-cyan",
+      "icon": "flag",
+      "slug": "app-Country"
+    },
+	{
+      "url": "providers",
+      "name": "Providers",
+      "i18n": "Providers",
+      "class": "waves-effect waves-cyan",
+      "icon": "assignment_ind",
+      "slug": "app-Providers"
+    },
+	{
+      "url": "servers",
+      "name": "Servers",
+      "i18n": "Servers",
+      "class": "waves-effect waves-cyan",
+      "icon": "router",
+      "slug": "app-Servers"
+    },
+	{
+      "url": "domains",
+      "name": "Domains",
+      "i18n": "Domains",
+      "class": "waves-effect waves-cyan",
+      "icon": "domain",
+      "slug": "app-Domains"
+    },
+	{
+      "url": "typelistes",
+      "name": "Typelistes",
+      "i18n": "Typelistes",
+      "class": "waves-effect waves-cyan",
+      "icon": "liste",
+      "slug": "app-Typelistes"
+    },
+    {
+      "url": "listesends",
+      "name": "Listesends",
+      "i18n": "Listesends",
+      "class": "waves-effect waves-cyan",
+      "icon": "liste",
+      "slug": "app-Listesends"
+    },
+	{
+      "url": "sips",
+      "name": "IP",
+      "i18n": "IP",
+      "class": "waves-effect waves-cyan",
+      "icon": "adjust",
+      "slug": "app-IP"
+    },
+	{
+      "url": "offres",
+      "name": "Offres",
+      "i18n": "Offres",
+      "class": "waves-effect waves-cyan",
+      "icon": "add_shopping_cart",
+      "slug": "app-offres"
+    },
+	{
+      "url": "operatingsystems",
+      "name": "Operatingsystems",
+      "i18n": "Operatingsystems",
+      "class": "waves-effect waves-cyan",
+      "icon": "system_update_alt",
+      "slug": "app-Operatingsystems"
+    },
+	{
+      "url": "headers",
+      "name": "Header",
+      "i18n": "Header",
+      "class": "waves-effect waves-cyan",
+      "icon": "view_headline",
+      "slug": "app-Header"
+    },
+	{
+      "url": "bodys",
+      "name": "Bodys",
+      "i18n": "Bodys",
+      "class": "waves-effect waves-cyan",
+      "icon": "view_compact",
+      "slug": "app-Bodys"
+    },			
+    {
+      "url": "javascript:void(0)",
+      "name": "Drop",
+      "i18n": "Drop",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "app-drop",
+      "icon": "receipt",
+      "submenu": [
+		 {
+          "url": "drops",
+          "name": "ShowDrop",
+          "i18n": "ShowDrop",
+          "slug": "app-showDrop-edit"
+        },
+        {
+          "url": "/drops/test",
+          "name": "Test",
+          "i18n": "Test ",
+          "slug": "app-test-list"
+        },
+        {
+          "url": "/drops/create",
+          "name": "CreateDrop",
+          "i18n": "CreateDrop",
+          "slug": "app-createDrop-view"
+        },       
+        {
+          "url": "/drops/ShowSend",
+          "name": "ShowSendHistory",
+          "i18n": "ShowSendHistory",
+          "slug": "app-showSendHistorys-add"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Tools",
+      "i18n": "Tools",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "build",
+      "icon": "settings_applications",
+      "submenu": [
+        {
+          "url": "updatewarms",
+          "name": "UpdatWarmUpList",
+          "i18n": "Update warm up list",
+          "slug": "app-Update-warm-up-list"
+        },
+        {
+          "url": "imaps",
+          "name": "IMAP",
+          "i18n": "IMAP",
+          "slug": "app-imap"
+        },
+        {
+          "url": "/imaps/getImapFromMail",
+          "name": "IMAP GET FROM EMAIL",
+          "i18n": "IMAP GET FROM EMAIL",
+          "slug": "app-imaps-get-fom-email"
+        },
+        {
+          "url": "reportings",
+          "name": "Reportings",
+          "i18n": "Reportings",
+          "slug": "app-reportings "
+        },
+        {
+          "url": "spfs",
+          "name": "SPF",
+          "i18n": "SPF",
+          "slug": "app-spfs"
+        }
+      ]
+    },{
+      "url": "creatives",
+      "name": "Creatives",
+      "i18n": "Creatives",
+      "class": "waves-effect waves-cyan",
+      "icon": "system_update_alt",
+      "slug": "app-Creatives"
+    },
+	 {
+      "url": "app-file-manager",
+      "name": "File manager",
+      "i18n": "File Manager",
+      "class": "waves-effect waves-cyan",
+      "icon": "content_paste",
+      "slug": "app-file-manager"
+    },
+	{
+          "url": "page-contact",
+          "name": "Contact",
+          "i18n": "Contact",
+		  "class": "waves-effect waves-cyan",
+		  "icon": "person_pin",
+          "slug": "page-contact"
+        },
+	{
+      "url": "app-email",
+      "name": "Mail",
+      "i18n": "Mail",
+      "class": "waves-effect waves-cyan",
+      "icon": "mail_outline",
+      "slug": "app-email",
+      "tag": "10",
+      "tagcustom": "new badge pill pink accent-2 float-right mr-2"
+    },
+    {
+      "url": "app-chat",
+      "name": "Chat",
+      "i18n": "Chat",
+      "class": "waves-effect waves-cyan",
+      "icon": "chat_bubble_outline",
+      "slug": "app-chat"
+    },
+    {
+      "url": "app-todo",
+      "name": "ToDo",
+      "i18n": "ToDo",
+      "class": "waves-effect waves-cyan",
+      "icon": "check",
+      "slug": "app-todo"
+    },
+    
+	{
+      "url": "javascript:void(0)",
+      "name": "Authentication",
+      "i18n": "Authentication",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "authentication",
+      "icon": "lock_open",
+      "tag": "10",
+      "tagcustom": "badge pill purple float-right mr-10",
+      "submenu": [
+        {
+          "url": "login",
+          "name": "Login",
+          "i18n": "Login",
+          "slug": "user-login",
+          "newTab": "_blank"
+        },
+        {
+          "url": "users/create",
+          "name": "NewUser",
+          "i18n": "Users",
+          "slug": "users",
+          "newTab": "_blank"
+        }, {
+          "url": "register",
+          "name": "Register",
+          "i18n": "Register",
+          "slug": "user-register",
+          "newTab": "_blank"
+        },
+        {
+          "url": "user-forgot-password",
+          "name": "Forgot Password",
+          "i18n": "Forgot Password",
+          "slug": "user-forgot-password",
+          "newTab": "_blank"
+        },
+        {
+          "url": "user-lock-screen",
+          "name": "Lock Screen",
+          "i18n": "Lock Screen",
+          "slug": "user-lock-screen",
+          "newTab": "_blank"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "User",
+      "i18n": "User",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "user",
+      "icon": "people_outline",
+      "tag": "3",
+      "tagcustom": "badge pill purple float-right mr-10",
+      "submenu": [
+        {
+          "url": "page-users-list",
+          "name": "List",
+          "i18n": "List",
+          "slug": "users-list"
+        },
+		{
+          "url": "page-new-users-list",
+          "name": "ListNewUser",
+          "i18n": "List",
+          "slug": "new-users-list"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Role",
+      "i18n": "Role",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "role",
+      "icon": "device_hub",
+      "tagcustom": "badge pill purple float-right mr-10",
+      "submenu": [
+        {
+          "url": "roles",
+          "name": "RoleMangement",
+          "i18n": "List",
+          "slug": "role-mangemen"
+        },
+		{
+          "url": "roles-has-permission",
+          "name": "PermissionRole",
+          "i18n": "List",
+          "slug": "has-permission"
+        }
+      ]
+    },
+	{
+      "url": "permissions",
+      "name": "Permission",
+      "i18n": "Permission",
+      "class": "waves-effect waves-cyan",
+      "icon": "stop_screen_share",
+      "slug": "permission"
+    },
+	{
+      "url": "groups",
+      "name": "Group",
+      "i18n": "Group",
+      "class": "waves-effect waves-cyan",
+      "icon": "group",
+      "slug": "group"
+    }
+  ]
+}
